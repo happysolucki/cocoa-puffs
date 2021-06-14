@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HS | Cocoa Puffs</title>
+    <script src="./xenhtml/xenEmulation.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div id="widget" class="widget flavor-default">
+      <div class="clock">
+        <div id="time" class="time"></div>
+        <div id="dateBattery" class="batt-date">
+          <span id="battery" class="battery"></span
+          ><span id="date" class="date"></span>
+        </div>
+      </div>
+      <div id="dock" class="dock">
+        <div class="dock-greet">
+          <div class="dock-stuff">
+            <div id="dock-quote"></div>
+            <div id="dock-button" class="dock-button"></div>
+          </div>
+        </div>
+        <div id="dock-holder" class="dock-holder">
+          <div id="dock-icon-holder" class="app-container"></div>
+        </div>
+      </div>
+      <div id="card-info" class="card card-info">
+        <div class="info info-main">
+          <div id="info-main-greet" class="info-main-greet">
+            <div class="greet-pic"></div>
+            <div class="greet-tod">
+              <div id="tod" class="tod"></div>
+              <div id="greet-quote"></div>
+            </div>
+            <div class="greet-buttons">
+              <div id="home-button" class="button button-home"></div>
+              <div id="app-button" class="button button-apps"></div>
+            </div>
+          </div>
+        </div>
+        <div class="info info-weather">
+          <div class="weather-container">
+            <img id="weather-icon" class="weather-icon" />
+            <div class="weather-details">
+              <div id="weather-details-left" class="weather-details-left">
+                <div id="weather-temp" class="weather-temp"></div>
+                <div id="weather-cond-left" class="weather-cond-left"></div>
+              </div>
+              <div class="weather-divider"></div>
+              <div id="weather-details-right" class="weather-details-right">
+                <div id="weather-cond-right" class="weather-cond-right"></div>
+                <div id="weather-hiLow" class="weather-hiLow"></div>
+                <div id="weather-precip" class="weather-precipitation"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="info-music" class="info info-music">
+          <div class="music-container">
+            <div class="music-details">
+              <div id="music-artwork" class="music-artwork"></div>
+              <div class="music-info">
+                <div id="music-track" class="music-track"></div>
+                <div id="music-artist" class="music-artist"></div>
+              </div>
+            </div>
+            <div id="music-play" class="music-play"></div>
+          </div>
+        </div>
+      </div>
+      <div id="card-app" class="card card-app">
+        <div class="app-pic">Your Fav Apps</div>
+        <div id="fav-app-holder-1" class="app-holder">
+          <div id="fav-icon-holder-1" class="app-container"></div>
+          <div id="fav-icon-holder-2" class="app-container"></div>
+        </div>
+        <div id="fav-app-holder-2" class="app-holder">
+          <div id="fav-icon-holder-3" class="app-container"></div>
+          <div id="fav-icon-holder-4" class="app-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/libs/domMaker.js"></script>
+    <script src="./js/libs/clock.js"></script>
+    <script src="./js/libs/localstore.js"></script>
+    <script src="./js/libs/drawer.js"></script>
+    <script src="./js/libs/menu.js"></script>
+    <script src="./js/libs/eventHandler.js"></script>
+    <script src="./js/libs/touchhold.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

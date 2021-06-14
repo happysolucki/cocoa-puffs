@@ -1,0 +1,170 @@
+{
+  "name": "HS | Cocoa Puffs",
+  "author": "happysolucki",
+  "options": [
+    {
+      "type": "title",
+      "text": "Look + Feel"
+    },
+    {
+      "type": "page",
+      "text": "Appearance",
+      "options": [
+        {
+          "type": "color",
+          "text": "Default Theme: Background Color",
+          "default": "#18181b",
+          "key": "dbgc"
+        },
+        {
+          "type": "color",
+          "text": "Default Theme: Accent Color",
+          "default": "#242329",
+          "key": "dac"
+        },
+        {
+          "type": "color",
+          "text": "Badge Color",
+          "default": "#FE5F55",
+          "key": "badge_color"
+        },
+        {
+          "type": "switch",
+          "text": "Enable Frosty Theme",
+          "default": false,
+          "key": "isFrostyThemeEnabled"
+        },
+        {
+          "type": "slider",
+          "min": 0,
+          "max": 30,
+          "text": "Frosty Blur Radius",
+          "default": 12,
+          "key": "blur_radius"
+        },
+        {
+          "type": "slider",
+          "min": 0,
+          "max": 25,
+          "text": "Card Radius",
+          "default": 16,
+          "key": "card_radius"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "text": "Custom Text & Typography",
+      "options": [
+        {
+          "type": "text",
+          "text": "Username",
+          "default": "kayeii",
+          "key": "username",
+          "placeholder": "Alias"
+        },
+        {
+          "type": "text",
+          "text": "Dock Quote",
+          "default": "sing on day by day",
+          "key": "dock_quote",
+          "placeholder": "Phrase"
+        },
+        {
+          "type": "text",
+          "text": "Greet Quote",
+          "default": "the scout mindset",
+          "key": "greet_quote",
+          "placeholder": "Phrase"
+        },
+        {
+          "type": "gap"
+        },
+        {
+          "type": "switch",
+          "text": "Enable System Font",
+          "default": false,
+          "key": "isSystemFontEnabled"
+        },
+        {
+          "type": "comment",
+          "text": "When enabled, this widget will use your system/snowboard font instead of the one provided in the widget (DM Sans).\n\nThe jailbreak you use will determine which of your system or snowboard font is used (libhooker -> system only, checkra1n/unc0ver -> snowboard priority)."
+        },
+        {
+          "text": "System Font Weight",
+          "type": "option",
+          "default": 4,
+          "key": "fontWeight",
+          "options": [
+            {
+              "text": "100",
+              "value": 1
+            },
+            {
+              "text": "200",
+              "value": 2
+            },
+            {
+              "text": "300",
+              "value": 3
+            },
+            {
+              "text": "400",
+              "value": 4
+            },
+            {
+              "text": "500",
+              "value": 5
+            },
+            {
+              "text": "600",
+              "value": 6
+            },
+            {
+              "text": "700",
+              "value": 7
+            },
+            {
+              "text": "800",
+              "value": 8
+            },
+            {
+              "text": "900",
+              "value": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "switch",
+      "text": "Reset Apps",
+      "default": false,
+      "key": "reset"
+    },
+    {
+      "type": "gap"
+    },
+    {
+      "type": "title",
+      "text": "Contributors"
+    },
+    {
+      "type": "link",
+      "text": "Reprise (HSL)",
+      "url": "https://twitter.com/Reprise_SW"
+    },
+    {
+      "type": "gap"
+    },
+    {
+      "type": "title",
+      "text": "Inspiration"
+    },
+    {
+      "type": "link",
+      "text": "mocacocoa",
+      "url": "https://twitter.com/mocacocoa_theme"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+:root {
+  --system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  // --system-font-weight: 500;
+}
+
+@font-face {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/varela-round-v13-latin-regular.woff2) format("woff2");
+}

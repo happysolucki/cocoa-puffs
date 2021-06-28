@@ -2,6 +2,8 @@
 
 A neat & interactive widget wholly inspired by one of mocacocoa's KLWPs
 
+<img src="readme_images/SS1.jpg" width="28%"> <img src="readme_images/SS2.jpg" width="28%"> <img src="readme_images/SS3.jpg" width="28%">
+
 ### Prerequesites
 
 > A jailbroken iPhone

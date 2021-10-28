@@ -12,7 +12,7 @@ A neat & interactive widget wholly inspired by one of mocacocoa's KLWPs
 
 ### Install
 
-This widget can be installed from [alo.works](https://alo.works) using your preferred package manager.
+This widget can be installed from [alo.works](https://alo.works) or by installing the deb from the Releases tab using your preferred package manager or filza.
 
 ### Setup
 
